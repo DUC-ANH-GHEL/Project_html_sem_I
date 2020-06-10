@@ -1,0 +1,61 @@
+#account{
+	background:white;
+	color:black;
+	
+}
+#account h3{
+	background:red;
+	color:white;
+	margin-top:0px;
+}
+.tai-khoan img{
+	margin-left:118px;
+}
+.tai-khoan{
+	border:solid 1px #9c9999;
+}
+.tai-khoan ul li{
+	margin-left:-33px;
+	margin-bottom:15px;
+	list-style:none;
+	border-bottom:dashed 1px #9c9999;
+}
+.tai-khoan ul li a{
+	color:black;
+}
+.tai-khoan ul li a:hover{
+	color:red;
+}
+.tai-khoan ul li a{
+	text-decoration:none;
+}
+.gach-chan{
+	border-top:solid 1px red;
+	width:100%;
+	
+	margin-top:-3px;
+
+}
+.gach_chan1{
+	border-top:dashed 1px red;
+	margin-top:-10px;
+}
+.dang_ky{
+	margin-left:200px;
+}
+.thongtintaikhoan{
+	margin-top:21px;
+}
+.thongtincanhan{
+	margin-top:21px;
+}
+#inputgender{
+	width: 500px;
+    height: 32px;
+    border-radius: 4px;
+}
+.inputdate{
+	width: 56px;
+    height: 28px;
+    border-radius: 5px;
+}

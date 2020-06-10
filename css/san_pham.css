@@ -1,0 +1,23 @@
+.product1 h1{
+	margin-top: 54px;
+    width: 37%;
+    font-size: 15px;
+}
+.product1{
+	margin-top:-18px;
+	
+	border-bottom:solid 1px red;
+}
+.product1 p{
+	color:black;
+	float:right;
+	margin-right:122px;
+	margin-top:-36px;
+}
+.product1 select{
+	margin-left:630px;
+	background:black;
+	float:right;
+	margin-top:-36px;
+	width:100px;
+}

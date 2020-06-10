@@ -1,0 +1,47 @@
+.log_in p{
+	font-size:30px;
+	text-align: center;
+	margin-top:50px;
+}
+.form-group{
+	width:500px;
+}
+#phom{
+	width:300px;
+	margin-left:5px;
+}
+#phom1{
+	
+	margin-left:1px;
+}
+.phom11{
+	width:360px;
+}
+#checkbox1{
+	margin-left:-59px;
+}
+
+#log{
+	margin-left:116px;
+}
+/* .phom111{
+	margin-left:10px !important; ưu tiên trước (!important)
+} */
+.checkbox{
+	margin-left:170px;
+}
+#forget{
+	/* border-bottom:solid 1px #BDA6A6; */
+	/* width:150px; */
+	margin-left:115px;
+	margin-top:10px;
+}
+#forget a{
+	color:#9A9393;
+}
+.gach{
+	border-top:solid 1px #a0a97f;
+	width:150px;
+	margin-left:97px;
+	margin-top:0px;
+}

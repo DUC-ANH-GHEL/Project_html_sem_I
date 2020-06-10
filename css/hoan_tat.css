@@ -1,0 +1,38 @@
+.ten_gio_hang2{
+	float: left;
+    /* margin-left: 16px; */
+    margin-top: 12px;
+    color: black;
+    margin-top: 35px;
+    height: 46px;
+    background: #dff0d8;
+    width:100%;
+    border-radius:3px;
+}
+.ten_gio_hang2 p{
+	padding-top: 11px;
+    padding-left: 30px;
+}
+.ten_hoan_tat{
+	margin-top: -8px;
+    height: 46px;
+    background: #D2CDCD;
+    border-bottom: solid 1px #a29f9f;
+}
+.ten_hoan_tat p{
+	float:left;
+	margin-left:145px;
+	margin-top:12px;
+	color:black;
+}
+.in_don_hang1 p{
+	padding-top: 5px;
+    padding-left: 27px;
+    margin-top: 125px;
+}
+.in_don_hang1{
+	background:red;
+	width: 147px;
+    height: 30px;
+    margin-top: 32px;
+}

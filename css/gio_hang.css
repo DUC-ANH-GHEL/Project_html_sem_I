@@ -1,0 +1,67 @@
+
+.gio_hang{
+	background:red;
+	width: 147px;
+    height: 30px;
+    margin-top: 32px;
+}
+.gio_hang p{
+	padding-top: 7px;
+    padding-left: 6px;
+}
+.gach11{
+	border-top:solid 1px red;
+}
+.ten_gio_hang{
+	margin-top: 35px;
+    height: 46px;
+    background: #D2CDCD;
+    border-bottom: solid 1px #a29f9f;
+}
+.ten_gio_hang p{
+	float:left;
+	margin-left:181px;
+	margin-top:12px;
+	color:black;
+}
+.ten_gio_hang1 img{
+	width:105px;
+	float:left;
+}
+.ten_gio_hang1 p{
+	float:left;
+	padding-left:10px;
+}
+/* .o_chon p{
+	margin-top: 120px;
+    /* float: right; */
+   /*  color: black;
+    margin-left: 18px;
+    border: solid 1px;
+} */
+.tiep_tuc_mua_hang{
+	float:left;margin-left: 862px;margin-top: 10px;background: black;
+			color: white;
+			height: 30px;
+			width: 131px;
+			padding-top: 5px;
+			padding-left: 7px;
+}
+.tien_hanh_thanh_toan{
+	float:left;margin-left:1006px;margin-top:-41px;background: red;color: white;
+			width: 146px;
+			padding-top: 5px;
+			padding-left: 6px;
+			height: 31px;
+}
+a .tiep_tuc_mua_hang:hover{
+	background:red;
+}
+a .tien_hanh_thanh_toan:hover{
+	background:black;
+	color:#F65D5D;
+}
+.anh_qttt{
+	margin-left: -356px;
+    margin-top: 47px;
+}

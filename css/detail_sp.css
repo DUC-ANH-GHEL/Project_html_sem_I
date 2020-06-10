@@ -1,0 +1,144 @@
+#sp{
+	background:white;
+}
+#chinhsachbanhang ol li{
+	/* list-style:none; */
+	color:black;
+	margin-top:15px;
+}
+#chinhsachbanhang{
+	background:#dddddd;
+	border:solid 1px #dddddd;
+}
+#chinhsachbanhang h3{
+	background: red;
+    margin-left: -16px;
+    width: 292px;
+    height: 41px;
+    margin-top: 0px;
+    padding-top:8px;
+    padding-left:24px;
+}
+#chitietsp{
+	color:black;
+}
+#chitietsp img{
+	border:solid 5px #dddddd;
+}
+.cart{
+	margin-top: 42px;
+    float: left;
+    margin-left: 13px;
+    border: solid 1px;
+    width: 130px;
+    height: 33px;
+    padding-top: 6px;
+    padding-left: 7px;
+    background:black;
+    color:white;
+}
+.buy{
+	margin-top: 42px;
+    margin-left: -82px;
+    float: right;
+    margin-right: 161px;
+    border: solid 1px;
+    width: 94px;
+    height: 33px;
+    padding-top: 6px;
+    padding-left: 8px;
+    background:red;
+    color:white;
+}
+#gia a:hover .cart{
+	background:red;
+}
+#gia a:hover .buy{
+	background:black;
+	color:red;
+}
+#gia a:hover .goi{
+	background:black;
+}
+.goi{
+	background: red;
+    margin-left: 234px;
+    margin-top: -33px;
+    border: solid 1px;
+    height: 33px;
+    color: white;
+    padding-top: 6px;
+    padding-left: 30px;
+}
+#chitietsanpham{
+	background:white;
+}
+.chitietsanpham1{
+	height: 37px;
+    background: red;
+    width: 165px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 4px;
+    border-radius: 7px;
+    margin-top: 10px;
+    border-bottom-left-radius:2px;
+}
+.motasp{
+	margin-top:-10px;
+	border:solid 1px #dad8d8;
+	width:950px;
+	height:839px;
+}
+.motasp img{
+	margin-top:40px;
+	margin-left:14px;
+}
+.motasp p{
+	margin-left:20px;
+}
+
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+#myresult{
+	position:absolute;
+	top:0;
+	right:-303px;
+	z-index:1000;
+	display:  none;
+}
+/* .img-zoom-container {
+  position: relative;
+} */
+/* .img-zoom-container:hover #myresult{
+	display:inline;
+} */
+/* .img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  set the size of the lens:
+  width: 40px;
+  height: 40px;
+}
+ */
+/* .img-zoom-result {
+  border: 1px solid #d4d4d4;
+  set the size of the result div:
+  width: 300px;
+  height: 300px;
+} */

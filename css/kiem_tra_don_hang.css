@@ -1,0 +1,25 @@
+.gio_hang1{
+	width:160px;
+	background:red;	    
+    height: 30px;
+    margin-top: 32px;
+    }
+    .gio_hang1 p{
+    	padding-top: 7px;
+    padding-left: 6px;
+    }
+    .ten_gio_hang input{
+    	margin-left: 15px;
+    margin-top: 6px;
+    width: 237px;
+    height: 34px;
+    border-radius:5px;
+    }
+    
+    .ten_gio_hang button:hover{
+    	background:black;
+    	
+    }
+    .ten_gio_hang button{
+    	background:red;
+    }

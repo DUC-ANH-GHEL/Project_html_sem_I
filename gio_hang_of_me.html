@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- phải có cái này để reponsive -->
+	<link rel="stylesheet" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script src="jquery/jquery-3.4.1.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+	<link rel="stylesheet" href="css/trang_chu.css">
+	<script src="js/trang_chu.js"></script>
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/gio_hang.css">
+</head>
+<body>	
+	
+	<nav class="navbar navbar-default" role="navigation" id="dau">
+		<div class="container">			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a id="hotline" class="navbar-brand" href="#"> <i class="fas fa-phone-alt"></i> Hotline:0123456789</a>
+			</div>			
+			<div class="collapse navbar-collapse navbar-ex1-collapse" id="top">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="kiem_tra_don_hang.html"><i class="fas fa-clipboard-list"></i> Kiểm Tra Đơn Hàng</a></li>
+					<li><a href="#"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</a></li>
+					<li>					
+						<a href="" type="button"  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span>   Đăng nhập</a>
+					</li>
+					<li><a href="sign_up.html"><i class="fas fa-sign-in-alt"></i> Đăng Ký</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="Header" style="width: 100%">
+		<div class="container" id="logo">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<a href="trang_chu.html"><img class="logo1"  src="img/logo.png"></a>
+				</div>
+				<div class="visible-sm visible-xs col-sm-4 col-xs-3"></div>
+				<div class="top top-search col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<form class="search">
+						<div class="form-group" id="phom">
+							<input type="text" class="form-control" placeholder="Search" name="search" id="find" >
+							<a href=""><img src="img/icon_search.png" alt="" class="icon_search"></a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="top3">
+			<div >
+				<ol class="breadcrumb" id="top3-1">
+					<li><a href="trang_chu.html">Trang chủ</a></li>
+					<li><a href="san_pham.html">Sản phẩm</a></li>
+					<li> <a href="">Tin tức</a></li>
+					<li><a href="gioi_thieu.html">Giới thiệu</a></li>
+					<li> <a href="">Liên hệ</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="background: white;">
+		<div class="gio_hang">
+			<p>GIỎ HÀNG CỦA TÔI</p>
+		</div>
+		<div class="gach11"></div>
+		<div class="ten_gio_hang">
+			<p><strong>TÊN SẢN PHẨM</strong></p>
+			<p><strong>GIÁ</strong></p>
+			<p><strong>SỐ LƯỢNG</strong></p>
+			<p><strong>THANH TOÁN</strong></p>
+
+		</div>
+		
+		<div class="tong_thanh_toan">
+			<p style="color:black; float:right;margin-top: 50px;margin-left: 58px;font-size: 23px">Tổng thanh toán: <span style="color:red" id="tong">0</span><span style="color:red">đ</span></p>
+		</div>
+		<div class="o_chon">
+			<a href="trang_chu.html"><p class="tiep_tuc_mua_hang" style="">Tiếp tục mua hàng</p></a>
+			<a href="thanh_toan_of_me.html"><p class="tien_hanh_thanh_toan" style="">Tiến hành thanh toán </p></a>
+
+		</div>
+	</div>
+	<!-- tính giá tiền -->
+	<script type="text/javascript">
+		function Envent(number) {
+			price = $('#price').html();
+			t = parseInt(price) * number;
+			$('#total').html(t);
+			$('#tong').html(t);
+		}
+	</script>
+	<!-- làm nút top  -->
+	<a href="#" class="cd-top">Back To Top</a>
+	<footer>
+		<div class="container-fluid">
+			<div class="icon-cuoi">
+				<img src="img/logo.png" alt="">
+			</div>
+		</div>
+		<div class="container" id="footer">
+			<div class="row" id="introduce">
+				<div class="col-md-4">
+					<h3>
+						Giới thiệu
+					</h3>
+					<ul>
+						<strong><li><a href="">Về chúng tôi</a></li></strong>
+						<li><a href="">Lĩnh vực hoạt động</a></li>
+						<li><a href="">Liên hệ với chúng tôi</a></li>
+						<li><a href="">Tin tức - Sự kiện</a></li>
+						<li><a href="">Quy định bảo hành đổi trả</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						Chăm sóc khác hàng
+					</h3>
+					<ul>
+						<strong><li><a href="">Hướng dẫn mua hàng</a></li></strong>
+						<li><a href="">Quy định đổi trả</a></li>
+						<li><a href="">Chính sách bán hàng</a></li>
+						<li><a href="">Chính sách bảo mật</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h3>Follow US</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/duc.scientist7246"><i class="fab fa-facebook"></i></a>  <a href=""><i class="fab fa-google-plus"></i></a> <a href=""><i class="fab fa-instagram"></i></a> <a href=""><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="container-fluid" id="ghel">
+			<p>@ 2019, Ghel store</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+		<div class="row">
+			<div class="col-md-4" style="background: #d7ebe9; border-top-left-radius: 10px; border-bottom-left-radius: 10px; height: 161px;">
+				<h1 style="color: black">Đăng nhập</h1>
+				<p style="color:#C2BEBE" >Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích, nhận nhiều ưu đãi ( giảm giá, voucher...)</p>
+				<img src="img/icon/icon_login.png" alt="">
+
+				<!-- <img src="img/icon/icon_login4.png" alt=""> -->
+				<!-- <img src="img/icon/icon_login3.png" alt=""> --></div>
+				<div class="col-md-8" style="background:#B4B3B3; border-radius: 10">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h1  class="modal-title">Đăng nhập  <img src="img/icon/icon_login5.png" alt=""></h1>
+						</div>
+						<div class="modal-body">
+							<!-- <div class="log_in">
+								<p><strong>ĐĂNG NHẬP HỆ THỐNG</strong></p>
+							</div> -->
+							<form role="form" id="phom1">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email/SĐT</label>
+									<input type="email" class="form-control phom11" id="exampleInputEmail1" placeholder="Nhập Email hoặc Số Điện Thoại">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control phom11" id="exampleInputPassword1" placeholder="Nhập mật khẩu">
+								</div>
+								<div class="checkbox">
+									<label id="checkbox1">
+										<input   type="checkbox"> Nhớ mật khẩu
+									</label>
+								</div>
+								<button type="submit" class="btn btn-default phom111" id="log">Đăng Nhập</button>
+								<div id="forget" >
+									<a  href="">Quên mật khẩu</a>
+								</div>
+								<div class="gach"></div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

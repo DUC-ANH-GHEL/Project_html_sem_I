@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- phải có cái này để reponsive -->
+	<link rel="stylesheet" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script src="jquery/jquery-3.4.1.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+	<link rel="stylesheet" href="css/trang_chu.css">
+	<script src="js/trang_chu.js"></script>
+	<link rel="stylesheet" href="css/login.css">
+	<script src="js/login.js"></script>
+	<link rel="stylesheet" href="css/san_pham.css">
+
+</head>
+<body>	
+	
+	<nav class="navbar navbar-default" role="navigation" id="dau">
+		<div class="container">			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a id="hotline" class="navbar-brand" href="#"> <i class="fas fa-phone-alt"></i> Hotline:0123456789</a>
+			</div>			
+			<div class="collapse navbar-collapse navbar-ex1-collapse" id="top">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="kiem_tra_don_hang.html"><i class="fas fa-clipboard-list"></i> Kiểm Tra Đơn Hàng</a></li>
+					<li><a href="gio_hang_of_me.html"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</a></li>
+					<li>					
+						<a href="" type="button"  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span>   Đăng nhập</a>
+					</li>
+					<li><a href="sign_up.html"><i class="fas fa-sign-in-alt"></i> Đăng Ký</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="Header" style="width: 100%">
+		<div class="container" id="logo">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<a href="trang_chu.html"><img class="logo1"  src="img/logo.png"></a>
+				</div>
+				<div class="visible-sm visible-xs col-sm-4 col-xs-3"></div>
+				<div class="top top-search col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<form class="search">
+						<div class="form-group" id="phom">
+							<input type="text" class="form-control" placeholder="Search" name="search" id="find" >
+							<a href=""><img src="img/icon_search.png" alt="" class="icon_search"></a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="top3">
+			<div >
+				<ol class="breadcrumb" id="top3-1">
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Sản phẩm</a></li>
+					<li> <a href="">Tin tức</a></li>
+					<li><a href="gioi_thieu.html">Giới thiệu</a></li>
+					<li> <a href="">Liên hệ</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	
+	
+</div>
+<div class="container" id="list-sp">
+	<div class="row">
+		<div class="col-md-4" id="menu-chinh">
+			<div class="menu">
+				<h3>
+					<span >Menu</span>
+					<img src="img/icon/icon_vmega.png" alt="">
+				</h3>
+				<ul>						
+					<li>
+						<div class="dropdown">
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="color: red; background: white; /* border:solid 0px; */ font-size: 20px; border-bottom:dashed 1px; margin-left: -13px;"><i class="fas fa-arrow-alt-circle-right"></i> Thực đơn chính
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Món khai vị</a></li>
+									<li><a href="#">Pizza</a></li>
+									<li><a href="#">salad</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href=""><i class="fas fa-arrow-alt-circle-right"></i> Thực đơn đặc biệt</a></li>
+
+						<li><a href=""><i class="fas fa-arrow-alt-circle-right"></i> Cơm</a></li>
+
+						<li><a href=""><i class="fas fa-arrow-alt-circle-right"></i> Xôi</a></li>
+
+						<li><a href=""><i class="fas fa-arrow-alt-circle-right"></i> Bánh mì</a></li>
+
+					</ul>
+				</div>
+
+			</div>
+			<div class="col-md-8">
+				<div class="product1">
+					<h1  style="background: red"><p style="color:#BEBDBD"><a style="color:#BEBDBD; text-decoration: none;" href="trang_chu.html">Trang chủ </a><i class="fas fa-angle-double-right"></i><em style="color:red">Sản phẩm </em></p></h1>
+					<p >sắp xếp</p>
+					<select name="" style="width: 100px; background: black">
+						<option value="1">Mặc định</option>
+						<option value="2">Gía tăng dần</option>
+						<option value="3">Gía giảm dần</option>
+						<option value="4">Tên sản phẩm: A to Z</option>
+						<option value="5">Tên sản phẩm: Z to A</option>
+					</select>
+				</div>
+
+				<div class="row" id="gach1">
+					<div class="col-sm-6 col-md-4 col-xs-4" >
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/pizza_lap_xuong_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<div class="tieude"></div>		<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4 col-xs-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/pizza_nho_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/salad_thit_nuong_vi_large (2).jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/salad__thit_xong_khoi_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/sup_cua_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>								
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/09_large (1).jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/salad_thit_nuong_vi_large (2).jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/my_xao_thap_cam_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="detail_sp.html"><img src="img/mon_an/pizza_lap_xuong_large.jpg" alt="..."></a>
+							<div class="caption">
+								<div class="tieude">
+									<h3>salad cá ngừ</h3>
+									<p>$ 40,000</p>
+								</div>
+								<a href="gio_hang.html">
+									<div class="addcart1">								
+										<button class="add2cart1" >Mua hàng</button>
+									</div>
+								</a>
+							</div>
+
+						</div>		
+
+					</div>
+					<nav aria-label="Page navigation" id="chuyen-trang" style="    ">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>		
+
+
+			</div>
+
+
+		</div> <!-- không biết của ai -->
+	</div> <!-- không biết của ai -->
+
+</div>
+
+<!-- làm nút top  -->
+<a href="#" class="cd-top">Back To Top</a>
+<footer>
+	<div class="container-fluid">
+		<div class="icon-cuoi">
+			<img src="img/logo.png" alt="">
+		</div>
+	</div>
+	<div class="container" id="footer">
+		<div class="row" id="introduce">
+			<div class="col-md-4">
+				<h3>
+					Giới thiệu
+				</h3>
+				<ul>
+					<strong><li><a href="">Về chúng tôi</a></li></strong>
+					<li><a href="">Lĩnh vực hoạt động</a></li>
+					<li><a href="">Liên hệ với chúng tôi</a></li>
+					<li><a href="">Tin tức - Sự kiện</a></li>
+					<li><a href="">Quy định bảo hành đổi trả</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3>
+					Chăm sóc khác hàng
+				</h3>
+				<ul>
+					<strong><li><a href="">Hướng dẫn mua hàng</a></li></strong>
+					<li><a href="">Quy định đổi trả</a></li>
+					<li><a href="">Chính sách bán hàng</a></li>
+					<li><a href="">Chính sách bảo mật</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3>Follow US</h3>
+				<ul>
+					<li><a href="https://www.facebook.com/duc.scientist7246"><i class="fab fa-facebook"></i></a>  <a href=""><i class="fab fa-google-plus"></i></a> <a href=""><i class="fab fa-instagram"></i></a> <a href=""><i class="fab fa-youtube"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div class="container-fluid" id="ghel">
+		<p>@ 2019, Ghel store</p>
+	</div>
+</footer>
+
+</body>
+</html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+		<div class="row">
+			<div class="col-md-4" style="background: #d7ebe9; border-top-left-radius: 10px; border-bottom-left-radius: 10px; height: 161px;">
+				<h1 style="color: black">Đăng nhập</h1>
+				<p style="color:#C2BEBE" >Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích, nhận nhiều ưu đãi ( giảm giá, voucher...)</p>
+				<img src="img/icon/icon_login.png" alt="">
+
+				<!-- <img src="img/icon/icon_login4.png" alt=""> -->
+				<!-- <img src="img/icon/icon_login3.png" alt=""> --></div>
+				<div class="col-md-8" style="background:#B4B3B3; border-radius: 10">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h1  class="modal-title">Đăng nhập  <img src="img/icon/icon_login5.png" alt=""></h1>
+						</div>
+						<div class="modal-body">
+							<!-- <div class="log_in">
+								<p><strong>ĐĂNG NHẬP HỆ THỐNG</strong></p>
+							</div> -->
+							<form role="form" id="phom1" onsubmit="error();">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email/SĐT</label>
+									<input type="text" class="form-control phom11" id="exampleInputEmail1" placeholder="Nhập Email hoặc Số Điện Thoại">
+									<div id="loi"></div>
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control phom11" id="exampleInputPassword1" placeholder="Nhập mật khẩu">
+									<div id="loi1"></div>
+								</div>
+								<div class="checkbox">
+									<label id="checkbox1">
+										<input   type="checkbox"> Nhớ mật khẩu
+									</label>
+								</div>
+								<button  type="submit" class="btn btn-default phom111" id="log">Đăng Nhập</button>
+								<div id="forget" >
+									<a  href="">Quên mật khẩu</a>
+								</div>
+								<div class="gach"></div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
